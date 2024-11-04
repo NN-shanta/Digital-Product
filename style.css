@@ -113,3 +113,29 @@ body {
   margin-top: 10px;
   padding: 12px 25px;
 }
+/* footer section */
+.footer {
+  background-color: #0b0b0b;
+  height: 300px;
+  padding-top: 100px;
+
+}
+.footer-section {
+  background-color: #0b0b0b;
+}
+.footer-logo {
+  width: 170px;
+  height: 35px;
+}
+.footer-title {
+  margin-bottom: 15px;
+}
+br {
+    clear: #fff;;
+}
+.Copyright {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  /* padding-bottom: 20px; */
+}
