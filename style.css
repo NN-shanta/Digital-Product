@@ -1,6 +1,79 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
-body{
-    
+body {
+  font-family: "Work Sans", serif;
+}
+/* navigation create */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #424141;
+  color: #fff;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+  height: 20px;
+}
+.navigation {
+  display: flex;
+}
+.nav {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+/* banner section */
+.banner {
+  background-image: url("images/background.png"),
+    linear-gradient(45deg, #0b0b0b, #282828);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: space-around;
+}
+.banner-description {
+  width: 550px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 700px;
+  margin-bottom: 15px;
+}
+.pera {
+  font-size: 15px;
+  font-weight: 300px;
+  margin-bottom: 15px;
+}
+.photo {
+  width: 300px;
+  height: 300px;
+}
+.pry-btn {
+  padding: 15px 20px;
+  background-color: rgb(170, 15, 15);
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  /* font-size: 10px; */
+}
+/* about section */
+.about-sec{
+    background-color: #fff;
+    color: black;
+}
+.about-description{
+}
+.section-title{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.about-title{
+    font-size: 25px ;
+    font-weight: 400px;
+    margin-bottom: 20px;
 }
